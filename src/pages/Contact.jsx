@@ -11,7 +11,6 @@ import { Fox } from '../models/Fox';
 // require('dotenv').config();
 
 function Contact() {
-  // console.log(process.env.REACT_APP_VITE_APP_EMAILJS_TEMPLATE_ID);
   const formRef = useRef(null);
   const [form, setForm] = useState({name: '', email:'', message:'' });
   const [isLoading, setIsLoading] = useState(false);

@@ -91,14 +91,10 @@ export function Island({
     };
   }, [gl, handlePointerDown, handlePointerUp, handlePointerMove]);
 
-  // This function is called on each frame update
   useFrame(() => {
-    // If not rotating, apply damping to slow down the rotation (smoothly)
     if (!isRotating) {
-      // Apply damping factor
       rotationSpeed.current *= dampingFactor;
 
-      // Stop rotation when speed is very small
       if (Math.abs(rotationSpeed.current) < 0.0001) {
         rotationSpeed.current = 0;
       }
@@ -132,7 +128,6 @@ export function Island({
   });
 
   return (
-    // {Island 3D model from: https://sketchfab.com/3d-models/foxs-islands-163b68e09fcc47618450150be7785907}
     <a.group ref={islandRef} {...props}>
       <mesh
         geometry={nodes.polySurface944_tree_body_0.geometry}
