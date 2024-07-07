@@ -1,8 +1,6 @@
 import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
+import gfg from './gfg.jpeg'
+import startup_cell_mits from './startup_cell_mits.jpeg'
 import logo from './logo.svg'
 
 export {
