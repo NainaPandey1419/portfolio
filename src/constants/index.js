@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { gfg, startup_cell_mits } from "../assets/images";
 import {
     car,
     contact,
@@ -72,57 +72,30 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
         title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        company_name: "StartUp Cell MITS",
+        icon: gfg,
+        iconBg: "#accbe1",
+        date: "March 2024 - Present",
+        points: [
+            "Developing and maintaining web applications using React Native and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Technical Mentor",
+        company_name: "GeeksforGeeks MITS Student Chapter",
+        icon: startup_cell_mits,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "May 2024 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Mentor in Data Structures in C++",
+            "As a mentor for college freshmen, I focus on building a strong foundation in C++ and essential data structures like arrays, linked lists, and trees. I emphasize hands-on projects and problem-solving to enhance understanding and application. Collaborative learning and continuous support are key elements of my approach, ensuring students are well-prepared and confident in their skills.",
         ],
     },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+   
 ];
 
 export const socialLinks = [
@@ -185,5 +158,12 @@ export const projects = [
         name: 'Flappy Bird Game',
         description: 'The famous Flappy Bird game where a bird with gravity has to dodge the top and bottom pillers which move horizontally backwards and have a velocity. The bird can move upwards and downwards to dodge them and the score keeps updating with each dodge. Created with Html Css and Javascript.',
         link: 'https://nainapandey1419.github.io/flaapy-bird/',
-    }
+    },
+    {
+        iconUrl: summiz,
+        theme: 'btn-back-yellow',
+        name: 'React App Aora',
+        description: 'Built with React Native, Animatable, and Appwrite, this app excels in design and functionality, enabling seamless sharing of AI videos within the community. Key features include engaging onboarding, secure authentication, an animated home screen, pull-to-refresh, efficient full-text search, intuitive tab navigation, media upload capabilities, detailed profile insights, consistent responsiveness, and dynamic animations.',
+        link: 'https://drive.google.com/file/d/1Pcx6gtvjmOWX-S3jv-yQhzBiq9qFGSoa/view?usp=drive_link',
+    },
 ];
