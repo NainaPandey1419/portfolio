@@ -5,9 +5,7 @@ import logo from './logo.svg'
 
 export {
     hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
+    gfg,
+    startup_cell_mits,
     logo
 }
