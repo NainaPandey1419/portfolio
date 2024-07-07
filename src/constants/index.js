@@ -74,7 +74,7 @@ export const experiences = [
     {
         title: "React Native Developer",
         company_name: "StartUp Cell MITS",
-        icon: gfg,
+        icon: startup_cell_mits,
         iconBg: "#accbe1",
         date: "March 2024 - Present",
         points: [
@@ -87,7 +87,7 @@ export const experiences = [
     {
         title: "Technical Mentor",
         company_name: "GeeksforGeeks MITS Student Chapter",
-        icon: startup_cell_mits,
+        icon: gfg ,
         iconBg: "#fbc3bc",
         date: "May 2024 - Present",
         points: [
