@@ -19,7 +19,7 @@ function About() {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer 19 years old, specializing in technical
+          Software Engineer 20 years old, specializing in technical
           education through hands-on learning and building applications.
         </p>
       </div>
@@ -47,7 +47,9 @@ function About() {
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I haven't worked yet with any association or companies but would like to showcase this section I worked on to add the experience later. Down below is some fictional work for the UI. 
+          I am a developer skilled in React Native, Tailwind CSS, and Material UI. With a solid foundation and experience in these technologies, I am confident in my ability to enhance websites with extra effects and visuals to a high standard and level of quality.
+          Moreover, I am committed to delivering projects on time and with great efficiency, ensuring client satisfaction throughout the process.
+          This portfolio showcases my work in ReactJS, NextJS, and Nativewind CSS. 
           </p>
         </div>
 
