@@ -125,6 +125,20 @@ export const projects = [
         link: 'https://nainapandey1419.github.io/Spotify-Clone/',
     },
     {
+        iconUrl: summiz,
+        theme: 'btn-back-yellow',
+        name: 'React Native App Aora',
+        description: 'Built with React Native, Animatable, and Appwrite, this app excels in design and functionality, enabling seamless sharing of AI videos within the community. Key features include engaging onboarding, secure authentication, an animated home screen, pull-to-refresh, efficient full-text search, intuitive tab navigation, media upload capabilities, detailed profile insights, consistent responsiveness, and dynamic animations.',
+        link: 'https://drive.google.com/file/d/1Pcx6gtvjmOWX-S3jv-yQhzBiq9qFGSoa/view?usp=drive_link',
+    },
+    {
+        iconUrl: summiz,
+        theme: 'btn-back-yellow',
+        name: 'React Native App JobSearch',
+        description: 'This project outlines the development of a comprehensive job search mobile application using React Native. The app aims to deliver a visually appealing and user-friendly interface, featuring seamless integration with external job APIs, efficient search and pagination functionality, and custom hooks for optimized data fetching. Key features include a dynamic home page showcasing diverse job listings, an explore page for easy browsing across categories, detailed job information pages, and the ability to search for specific job titles. The application emphasizes robust error handling, responsive design for cross-device compatibility, and a focus on code architecture and reusability. Overall, the project seeks to create a polished, feature-rich job search platform that provides users with a smooth and effective job hunting experience across various devices.',
+        link: 'https://drive.google.com/file/d/1xZSXZ0BUfiaMkKp6TXAXpDuKfNb36-p-/view?usp=drive_link',
+    },
+    {
         iconUrl: threads,
         theme: 'btn-back-green',
         name: 'Memory Game',
@@ -158,12 +172,5 @@ export const projects = [
         name: 'Flappy Bird Game',
         description: 'The famous Flappy Bird game where a bird with gravity has to dodge the top and bottom pillers which move horizontally backwards and have a velocity. The bird can move upwards and downwards to dodge them and the score keeps updating with each dodge. Created with Html Css and Javascript.',
         link: 'https://nainapandey1419.github.io/flaapy-bird/',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'React App Aora',
-        description: 'Built with React Native, Animatable, and Appwrite, this app excels in design and functionality, enabling seamless sharing of AI videos within the community. Key features include engaging onboarding, secure authentication, an animated home screen, pull-to-refresh, efficient full-text search, intuitive tab navigation, media upload capabilities, detailed profile insights, consistent responsiveness, and dynamic animations.',
-        link: 'https://drive.google.com/file/d/1Pcx6gtvjmOWX-S3jv-yQhzBiq9qFGSoa/view?usp=drive_link',
     },
 ];
