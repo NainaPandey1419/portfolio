@@ -76,7 +76,7 @@ export const experiences = [
         company_name: "Dashtiny-Dominating Soon!",
         icon: dashtiny,
         iconBg: "#accbe1",
-        date: "March 2024 - Present",
+        date: "August 2024 - Present",
         points: [
            " As a Full Stack Developer intern, I contributed to the development of a dynamic travel website, leveraging both React.js and Angular frameworks to create a seamless user experience. My responsibilities included building responsive front-end components, integrating third-party APIs for real-time travel data, and enhancing site functionality. I also assisted in developing the back-end services, ensuring efficient data flow and implementing user authentication. This internship allowed me to strengthen my skills in modern web technologies, agile development, and collaborative problem-solving."
         ],
