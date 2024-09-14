@@ -8,5 +8,6 @@ export {
     hero,
     gfg,
     startup_cell_mits,
+    dashtiny,
     logo
 }
