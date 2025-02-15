@@ -1,4 +1,4 @@
-import { gfg, startup_cell_mits, dashtiny } from "../assets/images";
+import { gfg, startup_cell_mits, dashtiny, youthspire } from "../assets/images";
 import {
     car,
     contact,
@@ -23,7 +23,8 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    3js
 } from "../assets/icons";
 
 export const skills = [
@@ -59,6 +60,11 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: 3js,
+        name: "Threejs",
+        type: "Frontend",
+    },
+    {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
@@ -71,6 +77,26 @@ export const skills = [
 ];
 
 export const experiences = [
+    {
+        title: "Intern-Frontend Developer",
+        company_name: "Youthspire",
+        icon: youthspire,
+        iconBg: "#000000",
+        date: "February 2025 - Present",
+        points: [
+           "As a frontend developer at YouthSpire, I contributed to building a community of skilled individuals and learners. My role involved developing the platform's website, ensuring a seamless user experience. I helped facilitate the sale of NFTs and the acceptance of project ideas that benefited the youth. Additionally, I supported individuals in creating their brand and improving their businesses. Through my work, I played a key role in fostering growth and opportunities for young entrepreneurs."
+        ],
+    },
+    {
+        title: "Freelancer",
+        company_name: "Youthspire",
+        icon: youthspire,
+        iconBg: "#000000",
+        date: "October 2024 - Present",
+        points: [
+           " As a freelancer, creating websites for international clients. I specialized in designing and implementing visually appealing and highly functional user interfaces. My role also involved assisting in the deployment process to ensure seamless launches. I focused on crafting pixel-perfect, responsive designs that met client expectations. Through my expertise, I contributed to delivering high-quality web solutions with optimal performance."
+        ],
+    },
     {
         title: "Intern-Full Stack Developer",
         company_name: "Dashtiny-Dominating Soon!",
