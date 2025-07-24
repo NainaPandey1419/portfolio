@@ -5,6 +5,9 @@ import {
   youthspire,
   coffee,
   apechain,
+  breakmart,
+  cepheia,
+  inky
 } from "../assets/images";
 import {
   car,
@@ -85,11 +88,27 @@ export const skills = [
 
 export const experiences = [
   {
+    title: "MERN Stack Developer",
+    company_name: "Breakmart",
+    icon: breakmart,
+    iconBg: "#000000",
+    date: "June 2025 - Present",
+    points: [
+      "My Contributions as a MERN Stack Developer at YouthSpire:",
+      "Website Development: Built and optimized the platform’s website for a seamless user experience.",
+      "Community Building: Contributed to creating a network of skilled individuals and learners.",
+      "NFT Integration: Facilitated the sale of NFTs to support digital creators.",
+      "Project Ideation: Helped in evaluating and accepting project ideas beneficial to youth.",
+      "Business Support: Assisted individuals in building their brand and improving their businesses.",
+      "Youth Empowerment: Played a key role in fostering growth and opportunities for young entrepreneurs.",
+    ],
+  },
+  {
     title: "Intern-UI/UX Developer",
     company_name: "Youthspire",
     icon: youthspire,
     iconBg: "#000000",
-    date: "February 2025 - Present",
+    date: "February 2025 - June 2025",
     points: [
       "My Contributions as a MERN Stack Developer at YouthSpire:",
       "Website Development: Built and optimized the platform’s website for a seamless user experience.",
@@ -124,7 +143,7 @@ export const experiences = [
     company_name: "Dashtiny-Dominating Soon!",
     icon: dashtiny,
     iconBg: "#accbe1",
-    date: "August 2024 - Present",
+    date: "August 2024 - November 2024",
     points: [
       "My Contributions as a Full Stack Developer Intern:",
       "Developed a Travel Website: Worked on a dynamic travel platform using React.js and Angular.",
@@ -141,7 +160,7 @@ export const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
+    title: "Tech Lead",
     company_name: "StartUp Cell MITS",
     icon: startup_cell_mits,
     iconBg: "#accbe1",
@@ -154,11 +173,11 @@ export const experiences = [
     ],
   },
   {
-    title: "Technical Mentor",
+    title: "Technical Member",
     company_name: "GeeksforGeeks MITS Student Chapter",
     icon: gfg,
     iconBg: "#fbc3bc",
-    date: "May 2024 - Present",
+    date: "May 2024 - May 2025",
     points: [
       "Mentor in Data Structures in C++",
       "As a mentor for college freshmen, I focus on building a strong foundation in C++ and essential data structures like arrays, linked lists, and trees. I emphasize hands-on projects and problem-solving to enhance understanding and application. Collaborative learning and continuous support are key elements of my approach, ensuring students are well-prepared and confident in their skills.",
@@ -186,6 +205,27 @@ export const socialLinks = [
 
 export const projects = [
   {
+    iconUrl: breakmart,
+    theme: "btn-back-white",
+    name: "Breakmart Portfolio",
+    description: `Built using React.js, Three.js, and Tailwind CSS for modern frontend architecture.
+Features a high-quality 3D model designed in Blender and rendered in real-time.
+Implements dynamic camera angles and transitions for an immersive experience.
+Optimized for fast performance using compressed 3D assets and efficient rendering.
+Fully responsive UI adapts seamlessly across all screen sizes and devices.
+Clean and consistent visual design with Tailwind CSS utility classes.
+Includes interactive animations and user-driven model control.
+Deployed for quick access and smooth navigation with minimal load times.`,
+    link: "https://breakmart.in/",
+  },
+  {
+    iconUrl: cepheia,
+    theme: "btn-back-white",
+    name: "Cepheia",
+    description: `I built Cepheia as a full-stack e-commerce platform that sells futuristic accessories with a strong focus on visual design and performance. Developed using React.js and Tailwind CSS on the frontend, it features a clean, dark-themed interface with smooth animations, responsive layouts, and a modern, immersive user experience. On the backend, it includes a robust admin panel with complete CRUD functionality—allowing product management, order tracking, user control, and more. The platform is fully responsive and optimized for both desktop and mobile, combining sleek aesthetics with practical commerce functionality for a high-end, futuristic shopping experience.`,
+    link: "https://cepheia.in/",
+  },
+  {
     iconUrl: coffee,
     theme: "btn-back-black",
     name: "Coffee Saas App",
@@ -201,6 +241,13 @@ export const projects = [
       "YouthSpire: Empowering the Future of Web3.YouthSpire is an educational initiative designed to help digital creators, web developers, and game developers transition from Web2 to Web3.For Digital Creators: Courses on NFT creation, tokenized content, and decentralized social media to retain control and monetization.For Web Developers: Hands-on learning with smart contracts, dApps, and blockchain authentication using Solidity, Rust, and Web3.js.For Game Developers: Insights into play-to-earn mechanics, NFT-based game assets, and decentralized game economies.For Educators: Integration of Web3 concepts into curricula to prepare a future-ready workforce.",
     link: "https://youthspire.breakmart.in/",
   },
+   {
+    iconUrl: inky,
+    theme: "btn-back-black",
+    name: "Inky",
+    description: `Inky is a modern, interactive website offering professional book publishing services through a unique, book-structured layout. Built using React.js and Tailwind CSS (with inline styles), Inky features realistic left-right page flipping animations that guide users through each section—like a physical book. From editing and formatting to cover design and distribution, all services are presented as turning "pages" with smooth transitions powered by Framer Motion. The site ensures responsiveness, accessibility, and a narrative-driven experience, blending storytelling with functionality to make publishing engaging and visually compelling.`,
+    link: "https://inky.in/",
+  },
   {
     iconUrl: apechain,
     theme: "btn-back-blue",
@@ -210,12 +257,12 @@ export const projects = [
     link: "https://youthspire.breakmart.in/",
   },
   {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Spotify Clone",
+    iconUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "Flappy Bird Game",
     description:
-      "Developed a webpage that selects, plays and pauses music. Created with Html Css and Javascript.",
-    link: "https://nainapandey1419.github.io/Spotify-Clone/",
+      "The famous Flappy Bird game where a bird with gravity has to dodge the top and bottom pillers which move horizontally backwards and have a velocity. The bird can move upwards and downwards to dodge them and the score keeps updating with each dodge. Created with Html Css and Javascript.",
+    link: "https://nainapandey1419.github.io/flaapy-bird/",
   },
   {
     iconUrl: summiz,
@@ -234,21 +281,6 @@ export const projects = [
     link: "https://drive.google.com/file/d/1xZSXZ0BUfiaMkKp6TXAXpDuKfNb36-p-/view?usp=drive_link",
   },
   {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Memory Game",
-    description:
-      "A game which works on memory. there are two cards with same food item which flip back in the grid if not matched with the same item. It ends if all the items are matched. Created with Html Css and Javascript.",
-    link: "https://nainapandey1419.github.io/Memory-Game/",
-  },
-  {
-    iconUrl: car,
-    theme: "btn-back-blue",
-    name: "Myntra Clone",
-    description: "Basic Html Css interface of the Myntra home webpage.",
-    link: "https://nainapandey1419.github.io/Myntra-Clone/",
-  },
-  {
     iconUrl: snapgram,
     theme: "btn-back-pink",
     name: "2048 Game",
@@ -265,11 +297,12 @@ export const projects = [
     link: "https://nainapandey1419.github.io/Space-Invaders/",
   },
   {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "Flappy Bird Game",
+    iconUrl: threads,
+    theme: "btn-back-green",
+    name: "Memory Game",
     description:
-      "The famous Flappy Bird game where a bird with gravity has to dodge the top and bottom pillers which move horizontally backwards and have a velocity. The bird can move upwards and downwards to dodge them and the score keeps updating with each dodge. Created with Html Css and Javascript.",
-    link: "https://nainapandey1419.github.io/flaapy-bird/",
+      "A game which works on memory. there are two cards with same food item which flip back in the grid if not matched with the same item. It ends if all the items are matched. Created with Html Css and Javascript.",
+    link: "https://nainapandey1419.github.io/Memory-Game/",
   },
+  
 ];

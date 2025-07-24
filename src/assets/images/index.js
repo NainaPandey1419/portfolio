@@ -6,6 +6,9 @@ import logo from "./logo.svg";
 import apechain from "./apechain.png";
 import coffee from "./coffee.png";
 import youthspire from "./youthspire.jpg";
+import breakmart from "./breakmart.png";
+import cepheia from "./cepheia.svg";
+import inky from "./inky.png";
 
 export {
   hero,
@@ -15,5 +18,8 @@ export {
   logo,
   apechain,
   coffee,
-youthspire
+youthspire,
+breakmart,
+cepheia,
+inky
 };
