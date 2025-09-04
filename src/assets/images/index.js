@@ -9,6 +9,7 @@ import youthspire from "./youthspire.jpg";
 import breakmart from "./breakmart.png";
 import cepheia from "./cepheia.svg";
 import inky from "./inky.png";
+import homobie from "./homobie.png";
 
 export {
   hero,
@@ -21,5 +22,6 @@ export {
 youthspire,
 breakmart,
 cepheia,
-inky
+inky,
+homobie
 };

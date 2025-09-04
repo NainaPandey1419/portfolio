@@ -7,7 +7,8 @@ import {
   apechain,
   breakmart,
   cepheia,
-  inky
+  inky,
+  homobie
 } from "../assets/images";
 import {
   car,
@@ -88,11 +89,29 @@ export const skills = [
 
 export const experiences = [
   {
+    title: "Frontend Developer",
+    company_name: "Homobie",
+    icon: homobie,
+    iconBg: "#000000",
+    date: "July 2025 - Present",
+    points: [
+      "Developed the MVP website from scratch, focusing on creating a clean, modern, and user-friendly interface."
+
+"Improved the design, functionality, and user experience, making the platform more intuitive and visually appealing."
+
+"Implemented API integrations to connect frontend components with backend services, enabling seamless data flow and dynamic content."
+
+"Collaborated closely with the team to translate product requirements into functional features, ensuring the website met both business and user needs."
+
+"Optimized frontend performance and responsiveness for desktop and mobile devices."
+    ],
+  },
+  {
     title: "MERN Stack Developer",
     company_name: "Breakmart",
     icon: breakmart,
     iconBg: "#000000",
-    date: "June 2025 - Present",
+    date: "June 2025 - July 2025",
     points: [
       "My Contributions as a MERN Stack Developer at YouthSpire:",
       "Website Development: Built and optimized the platform’s website for a seamless user experience.",
