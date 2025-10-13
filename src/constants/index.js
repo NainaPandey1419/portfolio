@@ -8,7 +8,7 @@ import {
   breakmart,
   cepheia,
   inky,
-  homobie
+  homobie,
 } from "../assets/images";
 import {
   car,
@@ -36,6 +36,7 @@ import {
   threads,
   typescript,
   threejs,
+  reactnative,
 } from "../assets/icons";
 
 export const skills = [
@@ -85,6 +86,16 @@ export const skills = [
     name: "TypeScript",
     type: "Frontend",
   },
+  {
+    imageUrl: reactnative,
+    name: "React Native",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nextjs,
+    name: "Next.js",
+    type: "Frontend",
+  },
 ];
 
 export const experiences = [
@@ -95,15 +106,15 @@ export const experiences = [
     iconBg: "#000000",
     date: "July 2025 - Present",
     points: [
-      "Developed the MVP website from scratch, focusing on creating a clean, modern, and user-friendly interface."
+      "Developed the MVP website from scratch, focusing on creating a clean, modern, and user-friendly interface.",
 
-"Improved the design, functionality, and user experience, making the platform more intuitive and visually appealing."
+      "Improved the design, functionality, and user experience, making the platform more intuitive and visually appealing.",
 
-"Implemented API integrations to connect frontend components with backend services, enabling seamless data flow and dynamic content."
+      "Implemented API integrations to connect frontend components with backend services, enabling seamless data flow and dynamic content.",
 
-"Collaborated closely with the team to translate product requirements into functional features, ensuring the website met both business and user needs."
+      "Collaborated closely with the team to translate product requirements into functional features, ensuring the website met both business and user needs.",
 
-"Optimized frontend performance and responsiveness for desktop and mobile devices."
+      "Optimized frontend performance and responsiveness for desktop and mobile devices.",
     ],
   },
   {
@@ -260,7 +271,7 @@ Deployed for quick access and smooth navigation with minimal load times.`,
       "YouthSpire: Empowering the Future of Web3.YouthSpire is an educational initiative designed to help digital creators, web developers, and game developers transition from Web2 to Web3.For Digital Creators: Courses on NFT creation, tokenized content, and decentralized social media to retain control and monetization.For Web Developers: Hands-on learning with smart contracts, dApps, and blockchain authentication using Solidity, Rust, and Web3.js.For Game Developers: Insights into play-to-earn mechanics, NFT-based game assets, and decentralized game economies.For Educators: Integration of Web3 concepts into curricula to prepare a future-ready workforce.",
     link: "https://youthspire.breakmart.in/",
   },
-   {
+  {
     iconUrl: inky,
     theme: "btn-back-black",
     name: "Inky",
@@ -323,5 +334,4 @@ Deployed for quick access and smooth navigation with minimal load times.`,
       "A game which works on memory. there are two cards with same food item which flip back in the grid if not matched with the same item. It ends if all the items are matched. Created with Html Css and Javascript.",
     link: "https://nainapandey1419.github.io/Memory-Game/",
   },
-  
 ];

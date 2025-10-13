@@ -10,6 +10,7 @@ import mui from './mui.svg'
 import nextjs from './nextjs.svg'
 import nodejs from './nodejs.svg'
 import react from './react.svg'
+import reactnative from './reactnative.png'
 import redux from './redux.svg'
 import sass from './sass.svg'
 import tailwindcss from './tailwindcss.svg'
@@ -57,5 +58,6 @@ export {
     contact,
     soundon,
     soundoff,
-    threejs
+    threejs,
+    reactnative
 }
