@@ -106,47 +106,32 @@ export const experiences = [
     iconBg: "#000000",
     date: "July 2025 - Present",
     points: [
-      "Developed the MVP website from scratch, focusing on creating a clean, modern, and user-friendly interface.",
+      "1.Developed the MVP website from scratch, focusing on creating a clean, modern, and user-friendly interface.",
 
-      "Improved the design, functionality, and user experience, making the platform more intuitive and visually appealing.",
+      "2.Improved the design, functionality, and user experience, making the platform more intuitive and visually appealing.",
 
-      "Implemented API integrations to connect frontend components with backend services, enabling seamless data flow and dynamic content.",
+      "3.Implemented API integrations to connect frontend components with backend services, enabling seamless data flow and dynamic content.",
 
-      "Collaborated closely with the team to translate product requirements into functional features, ensuring the website met both business and user needs.",
+      "4.Collaborated closely with the team to translate product requirements into functional features, ensuring the website met both business and user needs.",
 
-      "Optimized frontend performance and responsiveness for desktop and mobile devices.",
+      "5.Optimized frontend performance and responsiveness for desktop and mobile devices.",
     ],
   },
   {
-    title: "MERN Stack Developer",
-    company_name: "Breakmart",
-    icon: breakmart,
-    iconBg: "#000000",
-    date: "June 2025 - July 2025",
-    points: [
-      "My Contributions as a MERN Stack Developer at YouthSpire:",
-      "Website Development: Built and optimized the platform’s website for a seamless user experience.",
-      "Community Building: Contributed to creating a network of skilled individuals and learners.",
-      "NFT Integration: Facilitated the sale of NFTs to support digital creators.",
-      "Project Ideation: Helped in evaluating and accepting project ideas beneficial to youth.",
-      "Business Support: Assisted individuals in building their brand and improving their businesses.",
-      "Youth Empowerment: Played a key role in fostering growth and opportunities for young entrepreneurs.",
-    ],
-  },
-  {
-    title: "Intern-UI/UX Developer",
+    title: "Intern-MERN Stack Developer",
     company_name: "Youthspire",
     icon: youthspire,
     iconBg: "#000000",
-    date: "February 2025 - June 2025",
+    date: "February 2025 - July 2025",
     points: [
       "My Contributions as a MERN Stack Developer at YouthSpire:",
-      "Website Development: Built and optimized the platform’s website for a seamless user experience.",
-      "Community Building: Contributed to creating a network of skilled individuals and learners.",
-      "NFT Integration: Facilitated the sale of NFTs to support digital creators.",
-      "Project Ideation: Helped in evaluating and accepting project ideas beneficial to youth.",
-      "Business Support: Assisted individuals in building their brand and improving their businesses.",
-      "Youth Empowerment: Played a key role in fostering growth and opportunities for young entrepreneurs.",
+      "1. Developed multiple websites from scratch to deployment.(Frontend and Integration)",
+"2.Served multiple international clients and fulfilled their demands in the projects.",
+"3. Designed multiple website layouts on figma and canva in high quality and integrated with minimum loading time and high user security.",
+"4. Developed 3d websites. with futuristic, attractive and elegant designs. Maintained great user experience with proper code and no extra renders.",
+"5. Performed Functional and software testing on every deployment.",
+"6. Integrated Redux functionalities in the codebase.",
+"7. Tech stack -  Reactjs, Tailwindcss, Redux, Nextjs."
     ],
   },
   {
@@ -157,15 +142,12 @@ export const experiences = [
     date: "October 2024 - Present",
     points: [
       " My Contributions as a Freelancer:",
-      "Website Development: Created websites for international clients.",
-
-      "UI/UX Design: Specialized in designing visually appealing and highly functional user interfaces.",
-
-      "Deployment Support: Assisted in the deployment process for seamless project launches.",
-
-      "Responsive Design: Focused on crafting pixel-perfect, responsive web solutions.",
-
-      "Client Satisfaction: Ensured high-quality performance and met client expectations.",
+     "1. Developed multiple websites from scratch to deployment.(Frontend and Integration)",
+"2.Served multiple international clients and fulfilled their demands in the projects.",
+"3. Designed multiple website layouts on figma and canva in high quality and integrated with minimum loading time and high user security.",
+"4. Developed 3d websites. with futuristic, attractive and elegant designs. Maintained great user experience with proper code and no extra renders.",
+"5. Performed Functional and software testing on every deployment.",
+"6. Tech stack -  Reactjs, Tailwindcss, Redux, Nextjs."
     ],
   },
   {
@@ -176,17 +158,10 @@ export const experiences = [
     date: "August 2024 - November 2024",
     points: [
       "My Contributions as a Full Stack Developer Intern:",
-      "Developed a Travel Website: Worked on a dynamic travel platform using React.js and Angular.",
-
-      "Front-End Development: Built responsive and interactive UI components.",
-
-      "API Integration: Integrated third-party APIs for real-time travel data.",
-
-      "Back-End Development: Assisted in building back-end services for efficient data handling.",
-
-      "User Authentication: Implemented secure authentication mechanisms.",
-
-      "Skill Enhancement: Gained experience in modern web technologies, agile development, and teamwork.",
+     " 1. Developed their MVP frontend code to a higher level.",
+"2.Converted Angular code base to ReactJs.",
+"3. Complete functional and software testing and api integration of the developed code.",
+"4. Tech stack - React, Tailwindcss, Javascript, Angular and scss",
     ],
   },
   {
