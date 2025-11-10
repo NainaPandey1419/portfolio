@@ -104,7 +104,7 @@ export const experiences = [
     company_name: "Homobie",
     icon: homobie,
     iconBg: "#000000",
-    date: "July 2025 - Present",
+    date: "August 2025 - Novenber 2025",
     points: [
       "1.Developed the MVP website from scratch, focusing on creating a clean, modern, and user-friendly interface.",
 
