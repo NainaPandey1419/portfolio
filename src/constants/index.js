@@ -126,12 +126,12 @@ export const experiences = [
     points: [
       "My Contributions as a MERN Stack Developer at YouthSpire:",
       "1. Developed multiple websites from scratch to deployment.(Frontend and Integration)",
-"2.Served multiple international clients and fulfilled their demands in the projects.",
-"3. Designed multiple website layouts on figma and canva in high quality and integrated with minimum loading time and high user security.",
-"4. Developed 3d websites. with futuristic, attractive and elegant designs. Maintained great user experience with proper code and no extra renders.",
-"5. Performed Functional and software testing on every deployment.",
-"6. Integrated Redux functionalities in the codebase.",
-"7. Tech stack -  Reactjs, Tailwindcss, Redux, Nextjs."
+      "2.Served multiple international clients and fulfilled their demands in the projects.",
+      "3. Designed multiple website layouts on figma and canva in high quality and integrated with minimum loading time and high user security.",
+      "4. Developed 3d websites. with futuristic, attractive and elegant designs. Maintained great user experience with proper code and no extra renders.",
+      "5. Performed Functional and software testing on every deployment.",
+      "6. Integrated Redux functionalities in the codebase.",
+      "7. Tech stack -  Reactjs, Tailwindcss, Redux, Nextjs.",
     ],
   },
   {
@@ -142,12 +142,12 @@ export const experiences = [
     date: "October 2024 - Present",
     points: [
       " My Contributions as a Freelancer:",
-     "1. Developed multiple websites from scratch to deployment.(Frontend and Integration)",
-"2.Served multiple international clients and fulfilled their demands in the projects.",
-"3. Designed multiple website layouts on figma and canva in high quality and integrated with minimum loading time and high user security.",
-"4. Developed 3d websites. with futuristic, attractive and elegant designs. Maintained great user experience with proper code and no extra renders.",
-"5. Performed Functional and software testing on every deployment.",
-"6. Tech stack -  Reactjs, Tailwindcss, Redux, Nextjs."
+      "1. Developed multiple websites from scratch to deployment.(Frontend and Integration)",
+      "2.Served multiple international clients and fulfilled their demands in the projects.",
+      "3. Designed multiple website layouts on figma and canva in high quality and integrated with minimum loading time and high user security.",
+      "4. Developed 3d websites. with futuristic, attractive and elegant designs. Maintained great user experience with proper code and no extra renders.",
+      "5. Performed Functional and software testing on every deployment.",
+      "6. Tech stack -  Reactjs, Tailwindcss, Redux, Nextjs.",
     ],
   },
   {
@@ -158,10 +158,10 @@ export const experiences = [
     date: "August 2024 - November 2024",
     points: [
       "My Contributions as a Full Stack Developer Intern:",
-     " 1. Developed their MVP frontend code to a higher level.",
-"2.Converted Angular code base to ReactJs.",
-"3. Complete functional and software testing and api integration of the developed code.",
-"4. Tech stack - React, Tailwindcss, Javascript, Angular and scss",
+      " 1. Developed their MVP frontend code to a higher level.",
+      "2.Converted Angular code base to ReactJs.",
+      "3. Complete functional and software testing and api integration of the developed code.",
+      "4. Tech stack - React, Tailwindcss, Javascript, Angular and scss",
     ],
   },
   {
@@ -209,6 +209,13 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: homobie,
+    theme: "btn-back-white",
+    name: "Homobie Portfolio",
+    description: `Successfully upgraded the MVP codebase into a fully production-ready application by integrating all APIs with proper state rendering, implementing secure authentication including Google OAuth and AWS-backed data protection, and optimizing the codebase with reusable components and a clean structure. Performed end-to-end functional and software testing, deployed and maintained the application in production, and provided progress demos to the CEO every two days. The project was built using React.js, Tailwind CSS, Redux, Java, and Spring Boot.`,
+    link: "https://homobie.com/",
+  },
   {
     iconUrl: breakmart,
     theme: "btn-back-white",
