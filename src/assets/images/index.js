@@ -10,6 +10,7 @@ import breakmart from "./breakmart.png";
 import cepheia from "./cepheia.svg";
 import inky from "./inky.png";
 import homobie from "./homobie.png";
+import abekus from "./abekus.svg";
 
 export {
   hero,
@@ -23,5 +24,6 @@ youthspire,
 breakmart,
 cepheia,
 inky,
-homobie
+homobie,
+abekus
 };

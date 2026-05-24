@@ -19,8 +19,10 @@ function About() {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer 20 years old, specializing in technical
-          education through hands-on learning and building applications.
+          Full Stack Developer specializing in React.js, React Native, Next.js,
+    Redux, and scalable frontend architecture. Passionate about building
+    high-performance web and mobile applications with clean UI, optimized
+    performance, and modern user experiences.
         </p>
       </div>
 
@@ -46,11 +48,32 @@ function About() {
       <div className='py-16'>
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-          <p>
-          I am a developer skilled in React Native, Tailwind CSS, and Material UI. With a solid foundation and experience in these technologies, I am confident in my ability to enhance websites with extra effects and visuals to a high standard and level of quality.
-          Moreover, I am committed to delivering projects on time and with great efficiency, ensuring client satisfaction throughout the process.
-          This portfolio showcases my work in ReactJS, NextJS, and Nativewind CSS. 
-          </p>
+          <ul className='my-5 list-disc ml-5 space-y-2 text-slate-500'>
+  <li>
+    Experienced in building scalable web and mobile applications using
+    React.js, React Native, Next.js, Redux, RTK Query, and Tailwind CSS.
+  </li>
+
+  <li>
+    Worked on AI-driven platforms, 3D websites, and production-ready
+    applications with modern frontend architecture.
+  </li>
+
+  <li>
+    Skilled in performance optimization, reusable component architecture,
+    responsive UI design, API integration, and state management.
+  </li>
+
+  <li>
+    Improved application performance, reduced API latency, and streamlined
+    deployment workflows across multiple startup and client projects.
+  </li>
+
+  <li>
+    Passionate about creating clean, maintainable, and user-focused
+    digital experiences with scalable frontend systems.
+  </li>
+</ul>
         </div>
 
         <div className="mt-12 flex">

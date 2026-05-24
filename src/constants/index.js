@@ -9,6 +9,7 @@ import {
   cepheia,
   inky,
   homobie,
+  abekus,
 } from "../assets/images";
 import {
   car,
@@ -42,43 +43,17 @@ import {
 export const skills = [
   {
     imageUrl: html,
-    name: "HTML",
+    name: "HTML5",
     type: "Frontend",
   },
   {
     imageUrl: css,
-    name: "CSS",
+    name: "CSS3",
     type: "Frontend",
   },
-  {
-    imageUrl: github,
-    name: "GitHub",
-    type: "Version Control",
-  },
-
   {
     imageUrl: javascript,
     name: "JavaScript",
-    type: "Frontend",
-  },
-  {
-    imageUrl: mui,
-    name: "Material-UI",
-    type: "Frontend",
-  },
-  {
-    imageUrl: react,
-    name: "React",
-    type: "Frontend",
-  },
-  {
-    imageUrl: threejs,
-    name: "Threejs",
-    type: "Frontend",
-  },
-  {
-    imageUrl: tailwindcss,
-    name: "Tailwind CSS",
     type: "Frontend",
   },
   {
@@ -87,81 +62,146 @@ export const skills = [
     type: "Frontend",
   },
   {
+    imageUrl: react,
+    name: "React.js",
+    type: "Frontend",
+  },
+  {
     imageUrl: reactnative,
     name: "React Native",
-    type: "Frontend",
+    type: "Mobile Development",
   },
   {
     imageUrl: nextjs,
     name: "Next.js",
     type: "Frontend",
   },
+  {
+    imageUrl: redux,
+    name: "Redux",
+    type: "State Management",
+  },
+  {
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: mui,
+    name: "Material UI",
+    type: "Frontend",
+  },
+  {
+    imageUrl: threejs,
+    name: "Three.js",
+    type: "3D Development",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: express,
+    name: "Express.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: mongodb,
+    name: "MongoDB",
+    type: "Database",
+  },
+  {
+    imageUrl: sass,
+    name: "SCSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
+  },
+  {
+    imageUrl: github,
+    name: "GitHub",
+    type: "Version Control",
+  },
 ];
 
 export const experiences = [
   {
-    title: "Frontend Developer",
-    company_name: "Homobie",
-    icon: homobie,
+    title: "Full Stack Developer Intern",
+    company_name: "Abekus",
+    icon: abekus,
     iconBg: "#000000",
-    date: "August 2025 - Novenber 2025",
+    date: "January 2026 - Present",
     points: [
-      "1.Developed the MVP website from scratch, focusing on creating a clean, modern, and user-friendly interface.",
-
-      "2.Improved the design, functionality, and user experience, making the platform more intuitive and visually appealing.",
-
-      "3.Implemented API integrations to connect frontend components with backend services, enabling seamless data flow and dynamic content.",
-
-      "4.Collaborated closely with the team to translate product requirements into functional features, ensuring the website met both business and user needs.",
-
-      "5.Optimized frontend performance and responsiveness for desktop and mobile devices.",
+      "Improved application performance by 30% and reduced API latency using RTK Query for efficient data fetching and global state management.",
+      "Refactored the codebase with reusable components, increasing development speed and maintainability.",
+      "Maintained high-quality standards through clean modular code and peer code reviews.",
+      "Streamlined deployment workflows enabling bi-weekly releases with zero downtime.",
+      "Managed collaborative development workflows using Git and resolved complex technical bottlenecks proactively.",
+      "Led migration of the mobile application from WebView to React Native with NativeWind and Redux state management.",
+      "Tech stack - React Native, Redux, RTK Query, JavaScript, TypeScript, NativeWind, Git.",
     ],
   },
   {
-    title: "Intern-MERN Stack Developer",
+    title: "Intern - Frontend Developer",
+    company_name: "Homobie",
+    icon: homobie,
+    iconBg: "#000000",
+    date: "August 2025 - November 2025",
+    points: [
+      "Reduced page load time and API response time by 40% through React component optimization and efficient API integration.",
+      "Contributed to increasing the active user base during the internship period by improving overall user experience.",
+      "Resolved frontend performance and server-related issues to improve application stability.",
+      "Streamlined CI/CD workflows and automated testing processes, increasing deployment frequency.",
+      "Conducted end-to-end testing, deployment, and delivered regular demos to the CEO.",
+      "Tech stack - React.js, Tailwind CSS, Redux, API Integration, CI/CD.",
+    ],
+  },
+  {
+    title: "Intern - Frontend Developer",
     company_name: "Youthspire",
     icon: youthspire,
     iconBg: "#000000",
     date: "February 2025 - July 2025",
     points: [
-      "My Contributions as a MERN Stack Developer at YouthSpire:",
-      "1. Developed multiple websites from scratch to deployment.(Frontend and Integration)",
-      "2.Served multiple international clients and fulfilled their demands in the projects.",
-      "3. Designed multiple website layouts on figma and canva in high quality and integrated with minimum loading time and high user security.",
-      "4. Developed 3d websites. with futuristic, attractive and elegant designs. Maintained great user experience with proper code and no extra renders.",
-      "5. Performed Functional and software testing on every deployment.",
-      "6. Integrated Redux functionalities in the codebase.",
-      "7. Tech stack -  Reactjs, Tailwindcss, Redux, Nextjs.",
+      "Developed and deployed multiple websites from scratch including frontend development and API integration.",
+      "Worked with international clients and delivered high-quality responsive websites based on project requirements.",
+      "Designed modern website layouts in Figma and Canva with optimized performance and security.",
+      "Built immersive 3D websites with futuristic UI and optimized rendering performance.",
+      "Maintained excellent user experience with responsive design and minimal unnecessary renders.",
+      "Tech stack - React.js, Tailwind CSS, Redux, Next.js, Three.js.",
     ],
   },
   {
-    title: "Freelancer",
-    company_name: "Youthspire",
+    title: "Freelance Frontend Developer",
+    company_name: "Freelancing",
     icon: youthspire,
     iconBg: "#000000",
-    date: "October 2024 - Present",
+    date: "October 2024 - July 2025",
     points: [
-      " My Contributions as a Freelancer:",
-      "1. Developed multiple websites from scratch to deployment.(Frontend and Integration)",
-      "2.Served multiple international clients and fulfilled their demands in the projects.",
-      "3. Designed multiple website layouts on figma and canva in high quality and integrated with minimum loading time and high user security.",
-      "4. Developed 3d websites. with futuristic, attractive and elegant designs. Maintained great user experience with proper code and no extra renders.",
-      "5. Performed Functional and software testing on every deployment.",
-      "6. Tech stack -  Reactjs, Tailwindcss, Redux, Nextjs.",
+      "Developed and deployed multiple websites for international clients using modern frontend technologies.",
+      "Designed responsive and visually appealing layouts in Figma and Canva with optimized loading performance.",
+      "Integrated APIs and implemented scalable frontend architectures for client projects.",
+      "Focused on performance optimization, responsiveness, and secure frontend implementation.",
+      "Collaborated directly with clients to deliver customized business solutions.",
+      "Tech stack - React.js, Tailwind CSS, Redux, Next.js.",
     ],
   },
   {
-    title: "Intern-Full Stack Developer",
+    title: "Intern - Full Stack Developer",
     company_name: "Dashtiny-Dominating Soon!",
     icon: dashtiny,
     iconBg: "#accbe1",
     date: "August 2024 - November 2024",
     points: [
-      "My Contributions as a Full Stack Developer Intern:",
-      " 1. Developed their MVP frontend code to a higher level.",
-      "2.Converted Angular code base to ReactJs.",
-      "3. Complete functional and software testing and api integration of the developed code.",
-      "4. Tech stack - React, Tailwindcss, Javascript, Angular and scss",
+      "Migrated almost all Angular components to React, significantly improving application performance and maintainability.",
+      "Improved load times by 50% using optimized reusable React components and better code structuring.",
+      "Enhanced development speed by creating reusable frontend architecture and streamlined workflows.",
+      "Performed functional testing, software testing, and API integration for developed modules.",
+      "Tech stack - React.js, Tailwind CSS, JavaScript, Angular, SCSS.",
     ],
   },
   {
@@ -169,7 +209,7 @@ export const experiences = [
     company_name: "StartUp Cell MITS",
     icon: startup_cell_mits,
     iconBg: "#accbe1",
-    date: "March 2024 - Present",
+    date: "March 2024 - May 2025",
     points: [
       "Developing and maintaining web applications using React Native and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -210,10 +250,19 @@ export const socialLinks = [
 
 export const projects = [
   {
+    iconUrl: abekus,
+    theme: "btn-back-white",
+    name: "Abekus.ai",
+    description:
+      "Contributing to an AI-driven career platform using React Native, Redux, RTK Query, and scalable frontend architecture. Improved performance by optimizing state management, API handling, and reusable component structures. Worked on mobile app migration from WebView to native React Native implementation while ensuring responsive UI, maintainability, and efficient deployment workflows.",
+    link: "https://abekus.ai/",
+  },
+  {
     iconUrl: homobie,
     theme: "btn-back-white",
-    name: "Homobie Portfolio",
-    description: `Successfully upgraded the MVP codebase into a fully production-ready application by integrating all APIs with proper state rendering, implementing secure authentication including Google OAuth and AWS-backed data protection, and optimizing the codebase with reusable components and a clean structure. Performed end-to-end functional and software testing, deployed and maintained the application in production, and provided progress demos to the CEO every two days. The project was built using React.js, Tailwind CSS, Redux, Java, and Spring Boot.`,
+    name: "Homobie",
+    description:
+      "Developed and optimized frontend features for the Homobie platform with focus on performance, API integration, and scalability. Improved page load speed and application responsiveness through efficient React component optimization and streamlined deployment workflows.",
     link: "https://homobie.com/",
   },
   {
